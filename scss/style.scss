@@ -1,0 +1,264 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+span {
+    color: #fb6d3a;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 714px;
+    margin: 10px;
+    &_user {
+        width: 400px;
+        margin: 110px 226px 40px 88px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 19px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+    }
+    &_projects {
+        width: 485px;
+        margin: 40px 226px 51px 88px;
+        h3 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: left;
+            color: #000000;
+        }
+        ol {
+            li {
+                margin-left: -20px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 24px;
+                color: #000000;
+                text-align: left;
+                span {
+                    color: #fb6d3a;
+                    }
+                a {
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #595959;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    &_company_1 {
+        width: 525px;
+        margin: 51px 226px 16px 88px;
+        h3 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #000000;
+            text-align: left;
+        }
+        h4 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin-top: 12px;
+            margin-bottom: 11px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: left;
+            color: #a8a8a8;
+            margin-bottom: 8px;
+        }
+        ul {
+            li {
+                margin-left: -20px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #595959;
+            }
+        }
+    }
+    &_company_2 {
+        width: 525px;
+        margin: 60px 226px 20px 88px;
+        h4 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin-top: 12px;
+            margin-bottom: 11px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: left;
+            color: #a8a8a8;
+            margin-bottom: 8px;
+        }
+        ul {
+            li {
+                margin-left: -20px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #595959;
+            }
+        }
+    }
+    &_company_3 {
+        width: 525px;
+        margin: 20px 226px 43px 88px;
+        h4 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+            margin-top: 12px;
+            margin-bottom: 11px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: left;
+            color: #a8a8a8;
+            margin-bottom: 8px;
+        }
+        ul {
+            li {
+                margin-left: -20px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #595959;
+            }
+        }
+    }
+    &_education {
+        width: 327px;
+        margin: 0px 226px 99px 88px;
+        h3 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #000000;
+        }
+        h4 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #a8a8a8;
+            margin-top: 12px;
+        }
+    }
+}
+
+aside {
+    margin: 40px;
+    background: #1e2939;
+    width: 370px;
+    top: 40px;
+    color: #ffffff;
+    img {
+        width: 370px;
+        height: 354px;
+        margin-top: 80px;
+    }
+    .contacts {
+        width: 183px;
+        margin: 51px 147px 44px 40px;
+        h3 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #ffffff;
+        }
+        p {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            a {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #ffffff;
+                opacity: 0.5;
+            }
+        }
+    }
+    .teach_skills {
+        width: 121px;
+        margin: 47px 147px 44px 40px;
+        ul {
+            li {
+                margin-left: -20px;
+                color: #fb6d3a;
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .soft_skills {
+        width: 113px;
+        margin: 44px 147px 0px 40px;
+        h3 {
+            margin-bottom: 8px;
+        }
+        ul {
+            li {
+                margin-left: -20px;
+                color: #fb6d3a;
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
